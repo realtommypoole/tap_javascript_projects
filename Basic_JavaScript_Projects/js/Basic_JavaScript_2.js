@@ -10,3 +10,8 @@ function myFunction () {        // define the function name
     document.getElementById("Concatenate").innerHTML = sentence; // define the method that will be called on the two variables and where it will result on the page.
 }
 
+function myNextFunction () {
+    var next = "Here Comes the Sun!";
+    var result = next.fontsize("300px");
+    document.getElementById("Next_Sun").innerHTML = result;
+}
