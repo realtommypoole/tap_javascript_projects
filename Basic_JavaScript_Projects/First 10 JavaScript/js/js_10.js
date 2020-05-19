@@ -8,7 +8,7 @@
   //      return "The car is a " + this.year + this.color + this.make + this.model;
  //   }
 //};
-document.getElementById("Car_Object").innerHTML = car.description();
+//document.getElementById("Car_Object").innerHTML = car.description();
 
 //RETRUN 
 //function myFunction(name) {
