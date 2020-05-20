@@ -27,3 +27,33 @@ function Color_Function () {
     }
     document.getElementById("Output").innerHTML = Color_Output;
 }
+
+//CLASS FUNCTION
+function Hello_World_Function() {
+    var A = document.getElementsByClassName("Click");
+    A[0].innerHTML = "The text has changed!"; 
+}
+
+//CANVAS FUNCTIONS
+function draw_Canvas () {
+    var c = document.getElementById("can_1");
+    var ctx = c.getContext("2d"); 
+    ctx.moveTo(0,0);
+    ctx.lineTo(150,150)
+    ctx.stroke();
+}
+
+//LINEAR GRADIENT FUNCTION
+function color_Canvas() {
+    var c = document.getElementById("can_2");
+    var ctx = c.getContext("2d");
+
+    var grd = ctx.createLinearGradient(0, 0, 170, 0);
+    grd.addColorStop(0, "black");
+    grd.addColorStop(1, "white");
+
+    ctx.fillStyle = grd;
+    ctx.fillRect(0, 0, 150, 150);
+}
+
+

@@ -11,10 +11,15 @@
 //document.getElementById("Car_Object").innerHTML = car.description();
 
 //RETRUN 
-//function myFunction(name) {
-//    return "Hello " + name;
-//    document.getElementById("Demo").innerHTML= return;
-//}
+
+function myDemo() {
+    return Math.random; 
+}
+
+console.log(myDemo());
+
+
+
 
 
 
