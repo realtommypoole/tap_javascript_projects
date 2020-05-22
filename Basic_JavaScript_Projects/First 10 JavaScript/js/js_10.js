@@ -1,26 +1,22 @@
 //METHOD WITHIN AN OBJECT
-//let car = {
-  //  make: "Dodge ",
-  //  model: "Viper ", 
-  //  year: "2021 ", 
-  //  color: "red ", 
-  //  description: function () {
-  //      return "The car is a " + this.year + this.color + this.make + this.model;
- //   }
-//};
-//document.getElementById("Car_Object").innerHTML = car.description();
+let car = {
+  make: "Dodge ",
+  model: "Viper ", 
+  year: "2021 ", 
+  color: "red ", 
+  description: function () {
+        return "The car is a " + this.year + this.color + this.make + this.model;
+    }
+}
+document.getElementById("Car_Object").innerHTML = car.description();
 
 //RETRUN 
 
-function myDemo() {
-    return Math.random; 
+function myDemo(name) {
+    if (name == "Tommy"){
+        return document.getElementById("Demo").innerHTML = "Hello" + name;
+    }
 }
-
-console.log(myDemo());
-
-
-
-
 
 
 //STRING LENGTH PROPERTY
@@ -109,15 +105,3 @@ function count_to_Ten_b() { //Define function name.
     }
     document.getElementById("breaker").innerHTML = Digit; //This finds the location in the HTML code to change values and display information. 
 }
-
-//CONTINUE STATEMENT
-//function count_to_Ten_c() {
-   // var Digit =""
-   // var X = 1;
-    //while (X < 11) {
-      //  Digit += "<br>" + X;
-      //  X++; 
-      //  if (X === 3) { continue; }
-    //}
-    //document.getElementById("continue_1").innerHTML = Digit;
-//}
